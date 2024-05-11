@@ -54,6 +54,7 @@ pipeline {
                 body: '''<html>
                             <body>
                          <p>The Pipeline build successful.</p>
+                         <p> This is an update test</p>
                          <p>Check console output at <a href="${BUILD_URL}console">here</a> to view the full results.</p>
                             </body>
                           </html>''',
